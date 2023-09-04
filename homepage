@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        /* Header styles */
+        header {
+            background-color: #f0f0f0; /* Background color for the header */
+            display: flex;
+            justify-content: space-between; /* Align content at the ends */
+            align-items: center; /* Vertically align content */
+            padding: 10px; /* Add padding for spacing */
+        }
+
+        #website-name {
+            font-size: 24px; /* Adjust the font size as needed */
+            color: black; /* Text color for the website name */
+            margin: 0; /* Remove default margin */
+        }
+
+        .vertical-line {
+            width: 1px; /* Width of the vertical line */
+            height: 30px; /* Height of the vertical line (adjust as needed) */
+            background-color: #000; /* Vertical line color */
+            margin: 0 10px; /* Adjust the margin as needed */
+        }
+
+        /* Navigation styles */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0; /* Remove default margin */
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 10px; /* spacing between navigation items */
+        }
+
+        /* Login/sign-in bar styles */
+        .login-bar {
+            display: flex;
+            align-items: center; /* Vertically align content */
+        }
+
+        #profile-image {
+            width: 30px; /* image size  */
+            height: 30px; /* image size */
+            border-radius: 50%; /* circular image */
+            margin-right: 10px; /* spacing between the image and text */
+        }
+
+        /* Orange area styles */
+        .orange-area {
+            background-color: orange; /* Background color for the orange area */
+            padding: 15px; /* Add padding to create space around the text */
+            text-align: center; /* Center-align the text */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="website-name">Name</div>
+        <div class="vertical-line"></div>
+        <nav>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Feedback</a></li>
+                <li><a href="#">Know About This Website</a></li>
+            </ul>
+        </nav>
+        <div class="login-bar">
+            <img id="profile-image" src="profile.jpg" alt="Profile Image"> <!-- Add your profile image source -->
+            <a href="#">Sign In</a> <!-- Link to the sign-in page -->
+        </div>
+    </header>
+    
+    <!-- Orange area -->
+    <div class="orange-area">
+        This is the website - <a href="#">Learn more ></a>
+    </div>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+
+        .white-area {
+            background-color: #fff; /* Background color for the white area */
+            padding: 20px; /* Add padding for spacing */
+            text-align: center; /* Center-align the text */
+        }
+
+        .black-text {
+            font-size: 24px; /* Adjust the font size as needed */
+            color: black; 
+        }
+
+        .prototype-text {
+            font-size: 18px; /* Font size for the prototype text */
+            margin-top: 10px;
+        }
+
+        .orange-box {
+            background-color: orange; /* Background color for the box */
+            padding: 10px;
+            display: flex;
+            justify-content: space-around; /* Horizontally space the text boxes */
+            border-radius: 5px; /* Add rounded corners to the box */
+            margin-top: 20px;
+        }
+
+        .white-box {
+            color: white; /* Text color for the text boxes */
+            font-weight: bold; /* Make the text bold */
+            padding: 5px; 
+        }
+    </style>
+
+    <div class="white-area">
+        <div class="black-text">This is the website<br>where education will be provided</div>
+        <div class="prototype-text">This is just a prototype.</div>
+        <!-- Orange box -->
+        <div class="orange-box">
+            <div class="white-box">Login</div>
+            <div class="white-box">Sign In</div>
+        </div>
+    </div>
+</body>
+</html>
